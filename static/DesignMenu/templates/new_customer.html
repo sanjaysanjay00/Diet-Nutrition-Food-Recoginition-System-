@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+{% include 'css/bootstrap.css'  %}
+{% include 'css/style.css'  %}
+{% include 'css/font-awesome.css'  %}
+
+</style>
+<title>Spa Care a Beauty and Spa Category Flat bootstrap Responsive website Template | About :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Spa Care Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smart phone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/prettySticky.css" type="text/css">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js --> 
+</head>
+<body>
+	<!-- banner -->
+	<div  id="home" class="w3banner about-banner">
+		<div class="banner-info">
+			<!-- navigation -->
+			<div class="top-nav">
+				<nav>
+					<div class="container">
+						<div class="navbar-header logo">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<h1><a href="index.html">Beauty Spa management </a></h1>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-right">
+								{% include 'menu/indexmenu.html'  %}
+							</ul>	
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</nav>
+			</div>	
+			<!-- //navigation -->
+			<div class="banner-text">
+				<h2>&nbsp;</h2>
+			</div>	
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<h3 class="wthree-title">&nbsp;</h3>
+	<h3 class="wthree-title">New Customer Register </h3>
+	<p class="wthree-title">&nbsp;</p>
+	<form name="form1" method="post" action="/new_customer">
+				<table width="442" height="414" border="0" align="center">
+                  <tr>
+                    <td>Name</td>
+                    <td><label>
+                      <input name="name" type="text" id="name" required>
+                    </label></td>
+                  </tr>
+                  <tr>
+                    <td>Contact</td>
+                    <td><label>
+                      <input name="contact" type="text" id="contact" required>
+                    </label></td>
+                  </tr>
+
+                  <tr>
+                    <td>Area</td>
+                    <td><input name="area" type="text" id="area" required></td>
+                  </tr>
+                  <tr>
+                    <td>Mail ID </td>
+                    <td><input name="email" type="email" id="email" required></td>
+                  </tr>
+                  <tr>
+                    <td>Address</td>
+                    <td><label>
+                      <textarea name="address" id="address" required></textarea>
+                    </label></td>
+                  </tr>
+                  <tr>
+                    <td>Username</td>
+                    <td><label>
+                      <input name="uname" type="text" id="uname" required>
+                    </label></td>
+                  </tr>
+                  <tr>
+                    <td>Password</td>
+                    <td><label>
+                      <input name="pass" type="text" id="pass" required>
+                    </label></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td><label>
+                      <input name="btn" type="submit" id="btn" value="Add">
+                    </label></td>
+                  </tr>
+                </table>
+      <p align="center">&nbsp;</p>
+                    <p align="center">&nbsp;</p>
+	</form>
+			
+
+
+	<!-- //footer -->
+	<!-- script-for prettySticky -->
+	<script src="js/prettySticky.js"></script>
+	<!-- //script-for prettySticky -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
